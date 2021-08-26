@@ -1,0 +1,36 @@
+
+.abc {
+    width: 300px; /* You can set the dimensions to whatever you want */
+    height: 300px;
+    object-fit: cover;
+}
+@media (min-width: 730px) {
+
+    .carshowcase {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top:50px;
+    }
+
+}
+
+
+.carimg {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+.banner {position: relative;}
+.banner img {width:100%}
+.banner .container {position: absolute; left:70; right:0; top:20%; text-align:left; transform:translateY(-50%)}
+
+#favcarText {
+    font-size: 300%;
+}
